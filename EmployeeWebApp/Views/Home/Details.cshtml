@@ -1,0 +1,26 @@
+﻿@using EmployeeWebApp.Models
+@model EmployeeWebApp.Models.Employee
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Employee";
+}
+
+<div class="row justify-content-center details border-3">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    <div class="col-sm-8">
+        <div class="card mt-3 mb-3">
+            <div class="card-header">
+                <h2 class="congrat-mssg"><span>Congratulations!!! </span><span class="congrat-mssg_name">@Model.Name</span> you have successfully applied</h2>
+            </div>
+        </div>
+        
+        <div class="card-body text-center">
+            @*<img class="card-img-top mb-4" src="" alt="employee-image" asp-append-version="true" />*@
+
+            <h4>Employee ID: @Model.Id</h4>
+            <h4>Email: @Model.Email</h4>
+            <h4>Department: @Model.Department</h4>
+        </div>
+    </div>
+</div>

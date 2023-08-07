@@ -1,0 +1,29 @@
+﻿h2{
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin: 30px;
+    margin-bottom: 50px;
+}
+
+.index{
+    max-width: 972px;
+    height: 500px;
+}
+
+.congrat-mssg{
+    margin: 30px 20px;
+    line-height: 60px;
+    padding-bottom: 10px;
+}
+
+.congrat-mssg .congrat-mssg_name{
+    color: blue;
+    display: inline;
+}
+
+span{
+    display: block;
+}
